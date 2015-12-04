@@ -1,0 +1,133 @@
+@media screen and (max-width: 980px){
+  .upper-container{
+      width: 90%;
+  }
+
+  nav{
+    width:90%;
+  }
+
+  .content-container{
+    width:90%;
+
+  }
+  footer{
+    width:90%;
+  }
+}
+
+@media screen and (max-width: 851px){
+  .donate{
+    display: none;
+  }
+
+  ul.nav li{
+    display: block;
+    padding:0;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid $white;
+  }
+
+  .hidden-donate{
+    text-align: center;
+    display: visible;
+  }
+
+  .flex-control-nav li p.title_piece{
+    font-size: .65em
+  }
+
+  .flex-control-nav li p.artist{
+    font-size: .65em;
+  }
+
+  .header{
+    margin-bottom: 190px;
+  }
+
+  .email{
+    display:none;
+  }
+
+  #upper-navigation-items{
+    display: none;
+  }
+
+  .footer-container{
+    height:250px;
+  }
+
+  ul.lower-nav {
+    margin:0;
+    position: static;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top:5px;
+  }
+
+  ul.lower-nav li{
+    display: block;
+    border-bottom: 1px solid $white;
+    margin-bottom:5px;
+  }
+
+  ul.social li form {
+    position:static;
+    top: 7px;
+  }
+
+  ul.social{
+    display: inline-block;
+    float:none;
+  }
+
+
+}
+@media screen and (max-width:610px){
+  .about{
+    width:100%;
+    display: block;
+  }
+  .quote{
+    width:100%;
+    display: block;
+  }
+
+  .latest_postings{
+    width:100%;
+    display:block;
+  }
+}
+
+@media screen and (max-width: 465px){
+  .flexslider-controls{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 420px){
+  ul.social li form {
+    position: static;
+    margin-top: 10px;
+    top: 7px;
+    right: 73px;
+    float: left;
+    margin-right:15px;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  img.logo{
+    width:90%;
+  }
+
+  ul.social li form {
+    position: static;
+    margin-top: 10px;
+    top: 7px;
+    right: 73px;
+    float: left;
+  }
+}

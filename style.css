@@ -1,0 +1,492 @@
+/*
+Theme Name: The Art of Alzheimers
+Theme URI: http://hurricanelanterns.net/wp
+Description: A theme for The Art of Alzheimers non-profit
+Authors: Eric Weigle, Kaela Lavin, Christina Fernandez, Patrick Dodd
+Author URI:
+Version: 1.0
+Tags:
+License:
+License URI:
+General comments (optional).
+*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", arial, helvetica, sans-serif; }
+
+body {
+  max-width: 100%;
+  margin: 0;
+  font-size: 100%; }
+  
+ h1 {
+	 font-size: 1.875em;
+	 }
+	 
+ h2 {
+	 font-size: 1.5em;
+	 }
+	 
+		h2 a {
+			color:#E11F26;
+		}
+		
+		h2 a:hover {
+			text-decoration: none;
+		}
+		
+	h4 {
+	 font-size: 1em;
+	 }
+	 
+		h4 a {
+			color:#E11F26;
+		}
+		
+		h4 a:hover {
+			text-decoration: none;
+		}
+
+.header {
+  height: 150px;
+  margin-bottom: 70px; }
+
+.wpcf7{
+  float: left;
+  position: relative;
+  left: 8px;
+  top: 40px;
+}
+
+.upper-container {
+  width: 960px;
+  margin: 0 auto; }
+
+ul.upper-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: 25px;
+  font-family: "PT Sans", arial, helvetica, sans-serif; }
+
+ul.upper-nav li {
+  display: inline;
+  margin-right: 1em; }
+
+.upper-nav a {
+  text-decoration: none;
+  color: black; }
+
+img.logo {
+  width: 350px; }
+
+.logo_a {
+  position: relative;
+  top: 20px; }
+
+.nav-container {
+  max-width: 100%;
+  margin-top: 50px;
+  background-color: #E11F26; }
+
+.hidden-donate {
+  display: none; }
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  position: relative; }
+
+.flexslider {
+  	margin-top: 20px; 
+	clear: both;
+ }
+
+
+
+ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 1.5% 0 1% 0; }
+
+ul.nav li {
+  display: inline;
+  padding-right: 3.125%; }
+
+ul.nav li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "PT Sans", arial, helvetica, sans-serif;
+  font-size: 1.5em; }
+
+a.donate {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "PT Sans", arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  border-radius: 15px;
+  background: #00738F;
+  padding: 18px 15px 33px 15px;
+  margin-bottom: 0px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+  right: 1%; }
+
+  a.donate:hover,
+  a.donate:focus{
+    background-color: #009CC1;
+  }
+
+.content-container {
+  width: 960px;
+  margin: 0 auto; }
+  
+  
+ .content-container img {
+	 max-width: 100%;
+	 height: auto;
+ }
+  
+
+form {
+  float: right;
+  position: relative;
+  bottom: 50px;
+  right: 10px; }
+
+
+.email{
+  float: right;
+  position: relative;
+  bottom:57px;
+  right:14px;
+  background-color: black;
+  border-radius: 7px;
+  height:20px;
+}
+
+.email a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px 15px 15px;
+}
+
+.email:hover{
+  background-color:grey;
+}
+
+.wpcf7-mail-sent-ok {display: none;}
+
+
+.home {
+  width: 100%;
+  overflow: auto; }
+.cta-area{
+  overflow:hidden;
+  padding-bottom:.5em;
+}
+.cta{
+  font-size: 1rem;
+  padding-top: .5em;
+  padding:0 1%;
+  width: 31.333%;
+  display: inline-block;
+  float:left;}
+
+
+.cta a{
+  color: black;
+  text-decoration: none;
+}
+.cta ul{
+  padding-left: 1em;
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+.cta li{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+
+}
+.cta li p {
+  line-height: 1.2em;
+  margin: 0;
+}
+.cta li p:last-child {
+  padding-bottom: 5px;
+}
+.cta p{
+  line-height: 1.35em;
+  padding:0 2%;
+}
+.cta p.about-text{
+  padding: 0 2%;
+}
+
+.cta h2{
+  font-size: 1.25rem;
+}
+.cta a:hover,
+.cta a:focus{
+  text-decoration: underline;
+}
+
+ul.lower-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 13px; }
+
+ul.lower-nav a:hover,
+ul.lower-nav a:focus{
+  text-decoration: underline;
+}
+
+
+ul.lower-nav li {
+  display: inline;
+  padding-right: 3.125%; }
+
+ul.lower-nav li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "PT Sans", arial, helvetica, sans-serif;
+  font-size: 1.1em; }
+
+ul.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  bottom: 10px;
+  margin-right: 1%; }
+
+ul.social li {
+  display: inline;
+  padding-right: 1em; }
+
+ul.social a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+ul.social li form {
+  position: relative;
+  top: 7px; }
+
+ul.social a:hover,
+ul.social a:focus{
+  color:#00738F;
+}
+
+/*** MAIN.HTML PAGE STYLES ***/
+.content {
+  float: left;
+  width: 72.91667%;
+  padding-bottom: 20px; }
+
+.gallery-entry {
+  padding-top: 10px;
+  min-height: 193px;
+  overflow: hidden;
+   }
+   
+ /*.attachment-thumbnail {
+	 float: left;
+ }*/
+
+.gallery-entry-read-more {
+  float: right;
+  color: #000; }
+
+.gallery-entry img {
+  float: left;
+  margin: 0px 20px 0px 0px;
+  max-width: 100%; }
+  
+ .artist-image {
+	 float: right;
+	 margin-left: 20px;
+ }
+
+.gallery-entry h3 {
+  text-decoration: none; }
+
+.right-sidebar {
+  float: right;
+  width: 22.91667%;
+  margin-bottom: 15px;}
+
+.latest-postings-sidebar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;}
+
+  .latest-postings-sidebar a:hover,
+  .latest-postings-sidebar a:focus{
+    text-decoration: underline;
+  }
+
+  .latest-postings-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.sidebar-latest-post {
+  padding-top: 20px; }
+
+.sidebar-latest-post img {
+  float: left;
+  padding: 5px 10px 0px 0px; }
+
+.sidebar-latest-post h4 {
+  margin: 0;
+  padding: 5px 0px; }
+
+.blog-archives-sidebar {
+  padding-top: 30px; }
+
+.blog-archives-sidebar li{
+  list-style: none;
+}
+.blog-archives-sidebar ul {
+  padding: 0; }
+
+.blog-archives-sidebar ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  padding: 5px; }
+
+/*** END MAIN.HTML PAGE STYLES ***/
+footer {
+  width: 960px;
+  margin: 0 auto; }
+
+.footer-container {
+  width: 1vm;
+  margin: 0 auto;
+  height: 120px;
+  background: #111111; }
+
+@media screen and (max-width: 980px) {
+  .upper-container {
+    width: 90%; }
+
+  nav {
+    width: 90%; }
+
+  .content-container {
+    width: 90%; }
+
+  footer {
+    width: 90%; } }
+@media screen and (max-width: 851px) {
+  .right-sidebar{
+    display:none;
+  }
+
+  .content{
+    width:100%;
+  }
+  .donate {
+    display: none; }
+
+  ul.nav li {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid #FFFFFF; }
+
+  .hidden-donate {
+    text-align: center;
+    display: visible; }
+
+  .flex-control-nav li p.title_piece {
+    font-size: 0.65em; }
+
+  .flex-control-nav li p.artist {
+    font-size: .65em; }
+
+  .header {
+    margin-bottom: 190px; }
+
+  .email {
+    display: none; }
+
+  #upper-navigation-items {
+    display: none; }
+
+  .footer-container {
+    height: 250px; }
+
+  ul.lower-nav {
+    margin: 0;
+    position: static;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 5px; }
+
+  ul.lower-nav li {
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 5px; }
+
+  ul.social li form {
+    position: static;
+    top: 7px; }
+
+  ul.social {
+    display: inline-block;
+    float: none; } }
+@media screen and (max-width: 610px) {
+  .cta{
+    width:100%;
+  }
+  .about {
+    width: 100%;
+    display: block; }
+
+  .quote {
+    width: 100%;
+    display: block; }
+
+  .latest_postings {
+    width: 100%;
+    display: block; } }
+@media screen and (max-width: 465px) {
+  .flexslider-controls {
+    display: none; } }
+@media screen and (max-width: 420px) {
+  ul.social li form {
+    position: static;
+    margin-top: 10px;
+    top: 7px;
+    right: 73px;
+    float: left;
+    margin-right: 15px; } }
+@media screen and (max-width: 400px) {
+  img.logo {
+    width: 90%; }
+
+  ul.social li form {
+    position: static;
+    margin-top: 10px;
+    top: 7px;
+    right: 73px;
+    float: left; } }
+
+/*# sourceMappingURL=style.css.map */
