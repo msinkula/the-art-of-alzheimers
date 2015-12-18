@@ -381,6 +381,16 @@ footer {
   height: 120px;
   background: #111111; }
 
+.woocommerce div.product form.cart,
+.woocommerce > form,
+.woocommerce-shipping-calculator {
+
+    bottom: auto;
+} 
+.woocommerce > form {
+padding-top: 10px;
+}
+
 @media screen and (max-width: 980px) {
   .upper-container {
     width: 90%; }
